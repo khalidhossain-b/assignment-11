@@ -1,0 +1,316 @@
+
+
+/*font-family: 'Playfair Display', serif;
+font-family: 'Raleway', sans-serif;
+e59205
+*/
+
+body{
+    font-family: 'Raleway', sans-serif;   
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+ul{
+    margin: 0;
+}
+ul li{
+    list-style: none;
+}
+input, button {
+    outline: none;
+}
+h1, h2, h3, h4 {
+    font-family: 'Playfair Display', serif;
+}
+/*************** Header Style *************/
+
+header .navbar-nav {
+    align-items: center;
+}
+header .bg-dark {
+    background-color: rgb(6 6 6 / 45%) !important;
+}
+.navbar-nav .nav-link {
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.navbar-nav .nav-link h1{
+    margin-left: 15px;
+    margin-right: 15px;
+    font-weight: bold;
+    color: #e59205;
+}
+.navbar-nav .nav-link {
+    font-weight: 600;
+    color: #fff;
+}
+header .navbar-brand {
+    color: #e59205;
+}
+header button i {
+    color: #fff;
+    font-size: 24px;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+    border: 2px solid #fff;
+}
+
+/*************** Banner Style *************/
+
+.banner-seciton h1 span{
+    color: #e59205;
+}
+.carousel-caption {
+    bottom: 50%;
+    transform: translateY(50%);
+}
+
+.carousel-caption p{
+    max-width: 600px;
+    margin: auto;
+}
+.carousel-caption .learn {
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    color: #fff;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.carousel-caption .learn:hover {
+    border: 2px solid #e59205;
+    color: #e59205;
+}
+
+
+/*************** Menu Style *************/
+.menu-section{
+    padding: 140px 0;
+}
+.menu-section .heading h1:before, .category-section .heading h1:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #e59205;
+    left: 0;
+    top: 58%;
+    z-index: -1;
+}
+.menu-section .heading p, .category-section .heading p {
+    max-width: 600px;
+    margin: auto;
+}
+.menu-section .heading h1, .category-section .heading h1 {
+    font-style: italic;
+    color: #6e7498;
+    position: relative;
+}
+.menu-section .heading h1 span, .category-section .heading h1 span {
+    background: #fff;
+    display: inline-block;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.menu-section .nav-tabs {
+     border-bottom: none; 
+}
+.menu-section .nav-tabs .nav-link {
+    border: 1px solid #6e7498;
+    margin: 5px;
+    padding: 0.5rem 1.5rem;
+    color: #6e7498;
+    font-weight: 600;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: #fff;
+    background: #e59205;
+    border: 1px solid #e59205;
+}
+.menu-section .menu h1{
+    color: #e59205;
+    margin-top: 10px;
+}
+.menu-section .menu {
+    margin-bottom: 30px;
+}
+.menu-section .menu p{
+    font-size: 15px;
+}
+.menu-section .menu .learn-btn, .category-section .learn-btn{
+    color: #6e7498;
+    padding: 5px 15px;
+    border: 1px solid #6e7498;
+    font-weight: 600;
+    transition: 0.3s;
+    margin: 10px 40px;
+}
+.menu-section .menu .order-btn{
+    color: #6e7498;
+    padding: 5px 15px;
+    border: 1px solid #6e7498;
+    font-weight: 600;
+    display: none;
+    transition: 0.3s;
+}
+.menu-section .menu .order-btn:hover, .menu-section .menu .learn-btn:hover,.category-section .learn-btn:hover{
+    background: #e59205;
+    color: #fff;
+    border: 1px solid #e59205;
+}
+.menu-section .menu .menu-hover{
+    text-align: center;
+    color: #6e7498;
+}
+.menu-section .menu .menu-hover{
+    margin-top: -220px;
+    transition: 0.4s;
+    z-index: -2;
+    opacity: 0;
+    visibility: hidden;
+}
+.menu-section .menu:hover .menu-hover{
+    margin-top: 0px;
+    transition: 0.4s;
+    opacity: 1;
+    visibility: visible;
+}
+.menu-section .menu:hover .learn-btn{
+    display: none;
+}
+.menu-section .menu:hover img{
+    transition: 0.4s;
+    z-index: 6;
+}
+.menu-section .menu:hover img{
+    transform: translateY(-30px);
+    transition: 0.4s;
+}
+.menu-section .menu:hover .menu-hover .order-btn{
+    display: block;
+}
+
+.dish-section {}
+.dish-section .offer{
+    background: #e59205;
+    height: 100%;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dish-section h1{
+    color: #fff;
+    max-width: 200px;
+    font-style: italic;
+}
+.dish-section img{}
+
+/*************** Category Style *************/
+
+.category-section {
+    padding-top: 140px;
+}
+.category {
+    margin-bottom: 100px;
+}
+.category img{
+    margin-bottom: 35px;
+}
+.category h2{
+    color: #6e7498;
+    margin-bottom: 45px;
+}
+.category p{
+    color: #6e7498;
+    margin-bottom: 45px;
+    line-height: 2;
+}
+
+/*************** newwletter Style *************/
+.newsletter{
+    background: url(../images/newsletter-bg.jpg);
+    padding: 180px 0;
+}
+.newsletter h1{
+    color: #6e7498;
+    font-style: italic;
+    margin-bottom: 70px;
+    text-align: center;
+    color: #fff;
+}
+.newsletter form{
+    text-align: center;
+}
+.newsletter input[type="email"]{
+    width: 100%;
+    margin-bottom: 70px;
+    padding: 10px 10px;
+    color: #6e7498;
+    text-align: center;
+    background: transparent;
+    border: 2px solid #6e7498;
+}
+.newsletter input[type="email"]::placeholder{
+    color: #6e7498;
+    font-weight: 600;
+}
+.newsletter input[type="submit"]{
+    color: #6e7498;
+    padding: 10px 20px;
+    border: 1px solid #6e7498;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.newsletter input[type="submit"]:hover{
+    background: #e59205;
+    color: #fff;
+    border: 1px solid #e59205;
+}
+
+/*************** Footer Style *************/
+footer {
+    padding: 20px 0;
+}
+footer p{
+    color: #6e7498;
+    margin: 0;
+    padding-top: 10px;
+}
+footer .footer-menu{}
+footer .footer-menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+footer .footer-menu ul li{}
+footer .footer-menu ul li a{
+    font-weight: 600;
+    color: #6e7498;
+    text-transform: uppercase;
+    transition: 0.3s;
+    padding: 5px 10px;
+}
+footer .footer-menu ul li a:hover{
+    color: #e59205;
+}
+
+
+
+
+
+
+
+
